@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site web</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="ajax.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mon site web</h1>
+        <div class="nav">
+            <label class="navig"> <a href="#Accueil">Accueil</a></label>
+            <label class="navig"> <a href="#Projets">Projets</a></label>
+            <label class="navig"><a href="#Contact">Contactez nous</a></label>
+        </div>
+        
+           
+    </header>
+    <div class="contenu">
+
+        <div class="Accueil"> 
+            <h2 id="Accueil">Bienvenue ! </h2>
+        <p class="intro">Curieux de savoir qui je suis, ce que j'aime faire et ce que je crée ?  
+        <br>Vous êtes au bon endroit. Explorez mes centres d'intérêts, découvrez mes projets et restons connectés !</p>
+        </div>
+        
+       
+        <div class="Presentation">
+            <h2>Ma présentation</h2>
+        <img src="images/robbie.png" alt="ma photo" class="photo">
+        <p>Je me nomme LEA MONROE étudiante inscrite en Master 1 à l'UPGC de Korhogo. En dehors de l'école je mène des 
+            activités extras scolaires afin de subvenir à mes besoins comme le codage de site web, la maintenance d'ordinateur
+             et aussi les cours à domicile. <br> Je suis aussi très créative et ouverte d'esprit ce qui me permet de me rapprocher
+            <br> et de parler avec beaucoup de personne. <br>Enfin je suis aussi très confidente et je sais faire la distinction entre
+             le cadre amical et le cadre professionnel.</p>
+        </div>            
+        
+        <div class="Hobbies">
+            <h2>Mes hobbies</h2>
+        <p>En dehors du codage, j'ai plusieurs passions qui occupent mon temps libre et nourrissent ma créativité.
+            <br>J'aime <strong>lire</strong>, car cela me permet d'élargir mes connaissances et de voyager à travers les mots.
+            <br>Je consacre aussi beaucoup de temps à <strong>écouter de la musique</strong>, qui m'aide à me concentrer, à me
+            <br> détendre ou simplement à profiter du moment présent.
+            <br>Enfin, je suis passionnée par le sport, notamment le Basketball. 
+            <br><em>Jouer au Basketball</em> m'apprend la rigueur, l'esprit d'équipe et me permet de rester actif.
+        </p>
+        <div class="hobbies-images">
+            <img src="images/livres.jpg" alt="j'aime lire" class="photo">
+            <img src="images/musique.jpeg" alt="j'aime la musique" class="photo">
+            <img src="images/balle-Basket.jpeg" alt="j'aime le Basket" class="photo">
+        </div>
+        
+        </div>    
+        
+        <div class="Projets">
+            <h2 id="Projets">Mes projets</h2>
+        <p>Je suis passionnée par la création et le développement de solutions utiles à travers le web. Mon objectif est de devenir 
+           <br> un développeur polyvalent, capable de concevoir des sites à la fois beaux, rapides et accessibles.  
+           <br> Actuellement, je travaille sur plusieurs mini-sites en HTML et CSS pour renforcer mes bases.  
+            <br>À moyen terme, je souhaite apprendre JavaScript et explorer les frameworks modernes comme React ou Vue.js afin de créer des applications interactives.  
+            <br>Chaque projet que je réalise est une étape vers une meilleure maîtrise du code et une plus grande autonomie dans le monde du numérique.
+        </p>
+        </div>
+        
+         
+    </div>
+
+<div class="forulaire">
+
+    <form id="my-form" action="https://formspree.io/f/xeokzgja" method="post">
+        <h2 id="Contact">Contactez nous</h2>
+        <hr>
+
+        <div class="corps-formulair">
+
+
+            <div class="gauche">
+                <div class="groupe">
+                    <label for="Nom">Nom :</label>
+                    <input type="text" id="Nom" name="Nom">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                <div class="groupe">
+                    <label for="Adresse">Adresse email :</label>
+                    <input type="email" id="Adresse" name="email">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+                
+                
+            </div>
+            <div class="droite">
+                <div class="groupe">
+                    <label for="Message">Message :</label>
+                    <input type="text" name="message" placeholder="Saisissez ici ...">
+                </div>
+                
+            </div>
+                
+        </div>
+        <div class="pied-form">
+             <button id="my-form-button">Envoyer</button>
+        </div>
+        <p id="my-form-status"></p>
+        
+
+    </form> 
+
+</div>
+    
+    <footer>
+        <div class="pied-page">
+             <div class="mon-portfolio">
+                <p class="copyright">&copy; 2025 - Mon Portfolio</p>
+            </div>
+            <div class="conditions">
+                <a href="" class="cvg"> Conditions générales de vente</a>
+            </div>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
